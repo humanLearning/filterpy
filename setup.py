@@ -14,7 +14,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # http://packaging.python.org/en/latest/tutorial.html#version
-    version=filterpy.__version__,
+    version="1.0.0",
 
     description='Kalman filtering and optimal estimation library',
     long_description=long_description,
