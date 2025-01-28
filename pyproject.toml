@@ -1,4 +1,18 @@
 [build-system]
-requires = ["setuptools", "wheel", "numpy"]
+# Specifies the tools needed to build the package
+requires = ["setuptools>=42", "wheel", "numpy"]
+# Indicates the backend used for building
 build-backend = "setuptools.build_meta"
 
+[project]
+# Metadata about the project (optional but recommended for modern builds)
+name = "filterpy"
+version = "1.4.6"
+description = "Kalman filtering and optimal estimation library in Python"
+authors = [{ name = "Roger Labbe", email = "rlabbe@gmail.com" }]
+license = { text = "MIT" }
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+]
